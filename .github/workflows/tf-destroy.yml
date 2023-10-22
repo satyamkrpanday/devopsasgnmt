@@ -1,10 +1,7 @@
 name: 'AWS Resources Destroy'
 
 on:
-  push:
-    branches:
-        - master
-
+   workflow_dispatch:
 env:
   region: ap-south-1
   
